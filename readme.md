@@ -28,4 +28,4 @@
    export API_KEY="api_key"
 
 3. ```bash
-     python etherscan.py
+     python challenge2/etherscan.py
