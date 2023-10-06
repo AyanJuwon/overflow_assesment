@@ -23,6 +23,8 @@
    ```bash
    pip install -r requirements.txt
 
-2. export API_KEY="api_key"
+2. export your api key
+    ```bash
+   export API_KEY="api_key"
 
-3. python etherscan.py
+3. ```bash python etherscan.py
