@@ -5,7 +5,6 @@ import os
 
 # get api key from env
 api_key = os.environ.get("API_KEY")
-# "5CV8ABV2VWSBF1S5GFPNPARVJVAW2A7483"
 
 
 def print_transfer(transaction_hash):
