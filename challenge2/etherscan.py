@@ -10,7 +10,7 @@ api_key = os.environ.get("API_KEY")
 def print_transfer(transaction_hash):
     # call etherscan api to find transaction logs with transaction hash
     response = requests.get(
-        f"https://api.etherscan.io/api?module=account&action=txlistinternal&txhash={transaction_hash}&apikey={api_key}"
+        f"https://api.etherscan.io/api?module=proxy&action=eth_getTransactionReceipt&txhash={transaction_hash}&apikey={api_key}"
     )
     # confirn status is OK
     if response.status_code == 200:
